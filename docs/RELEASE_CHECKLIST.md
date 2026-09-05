@@ -15,7 +15,7 @@
 - [x] README 加入已检查的难度选择、AI 对局和胜利截图。
 - [x] 已公开发布到 https://github.com/maopai/GomokuWatch 。
 - [x] 首次远端 Actions 构建和单元测试通过。
-- [ ] 创建 v0.1.0 预览版发布。
+- [x] 已发布 [v0.1.0 预览版](https://github.com/maopai/GomokuWatch/releases/tag/v0.1.0)。
 
 ## 稳定版前
 
