@@ -14,7 +14,7 @@
 
 ## 界面预览
 
-以下为 44 mm Apple Watch 模拟器实测截图。
+以下为 Apple Watch Ultra 2（49mm）模拟器实测截图。
 
 <p>
   <img src="docs/screenshots/difficulty.png" alt="三档 AI 难度" width="184">
