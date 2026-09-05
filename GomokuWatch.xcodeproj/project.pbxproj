@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080C94F427778188513A446A /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4C1DEABC49C749544E67C3 /* GameView.swift */; };
+		13968A72E1B648E693BF7930 /* GomokuWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545D1A2A1E99CF275CC03496 /* GomokuWatchApp.swift */; };
+		18FA9542F59D273FC7A32769 /* GameViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDAA4D641229C53DBCBA241 /* GameViewModelTests.swift */; };
+		2C69E5D1903DF5CBF0FCA814 /* GomokuEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867E07059C678FF01F27D93C /* GomokuEngine.swift */; };
+		4402BC6F22E320A98DDA80EB /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE85DDC64C381EAE8B3C58E /* GameViewModel.swift */; };
+		5AF2EB2DFD1C7B888CC12CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34AC5EAB0E4D9A2E217FB12F /* Assets.xcassets */; };
+		834C0AF04B60631A147C7FBD /* GomokuWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23279B485685B38AAAC90F1B /* GomokuWatchUITests.swift */; };
+		C17F3ADFB84A15DF1C704625 /* GomokuEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8B8E4E8624CAB07D37DE5 /* GomokuEngineTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		062F9647CA6BC823865A04DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35231D433DF9A43E6DFC970B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57AEB67C1A13E3D4E794C3F8;
+			remoteInfo = GomokuWatch;
+		};
+		FE6450AAE99D3510DFD91414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35231D433DF9A43E6DFC970B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57AEB67C1A13E3D4E794C3F8;
+			remoteInfo = GomokuWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B828FDED5CEBD0326171A06 /* GomokuWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GomokuWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DDAA4D641229C53DBCBA241 /* GameViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModelTests.swift; sourceTree = "<group>"; };
+		23279B485685B38AAAC90F1B /* GomokuWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GomokuWatchUITests.swift; sourceTree = "<group>"; };
+		34AC5EAB0E4D9A2E217FB12F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FE85DDC64C381EAE8B3C58E /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		545D1A2A1E99CF275CC03496 /* GomokuWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GomokuWatchApp.swift; sourceTree = "<group>"; };
+		68624655FC8875A72DB40326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		714A99D5110E51C17BE83524 /* GomokuWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GomokuWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		867E07059C678FF01F27D93C /* GomokuEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GomokuEngine.swift; sourceTree = "<group>"; };
+		9D1780302B7E2ED2C995AAC8 /* GomokuWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GomokuWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4C1DEABC49C749544E67C3 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		F0B8B8E4E8624CAB07D37DE5 /* GomokuEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GomokuEngineTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2E1455545089E3B52FAEB5C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4FE85DDC64C381EAE8B3C58E /* GameViewModel.swift */,
+				867E07059C678FF01F27D93C /* GomokuEngine.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3AF5B30955857F88B2E214A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C1DEABC49C749544E67C3 /* GameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5CCD1B0A8B02B65931D2B85C /* GomokuWatch */ = {
+			isa = PBXGroup;
+			children = (
+				34AC5EAB0E4D9A2E217FB12F /* Assets.xcassets */,
+				545D1A2A1E99CF275CC03496 /* GomokuWatchApp.swift */,
+				68624655FC8875A72DB40326 /* Info.plist */,
+				2E1455545089E3B52FAEB5C7 /* Models */,
+				3AF5B30955857F88B2E214A9 /* Views */,
+			);
+			path = GomokuWatch;
+			sourceTree = "<group>";
+		};
+		6857A5670FE9F5C37CD15175 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				714A99D5110E51C17BE83524 /* GomokuWatch.app */,
+				9D1780302B7E2ED2C995AAC8 /* GomokuWatchTests.xctest */,
+				0B828FDED5CEBD0326171A06 /* GomokuWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C382BD2E72A2C7931C16D7 = {
+			isa = PBXGroup;
+			children = (
+				5CCD1B0A8B02B65931D2B85C /* GomokuWatch */,
+				EBACD110B3FD754D7DB40E66 /* GomokuWatchTests */,
+				C37E6FA3E69333E15FAC5CB3 /* GomokuWatchUITests */,
+				6857A5670FE9F5C37CD15175 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C37E6FA3E69333E15FAC5CB3 /* GomokuWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23279B485685B38AAAC90F1B /* GomokuWatchUITests.swift */,
+			);
+			path = GomokuWatchUITests;
+			sourceTree = "<group>";
+		};
+		EBACD110B3FD754D7DB40E66 /* GomokuWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DDAA4D641229C53DBCBA241 /* GameViewModelTests.swift */,
+				F0B8B8E4E8624CAB07D37DE5 /* GomokuEngineTests.swift */,
+			);
+			path = GomokuWatchTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29E19B4D317F75D00BE740EA /* GomokuWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 760E859DFE6E387ACAD279CE /* Build configuration list for PBXNativeTarget "GomokuWatchUITests" */;
+			buildPhases = (
+				5523D88E7DC01085221DBE65 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E2CB376EF6BE3378EF29DE3 /* PBXTargetDependency */,
+			);
+			name = GomokuWatchUITests;
+			packageProductDependencies = (
+			);
+			productName = GomokuWatchUITests;
+			productReference = 0B828FDED5CEBD0326171A06 /* GomokuWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		57AEB67C1A13E3D4E794C3F8 /* GomokuWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC310CD12E9768626549F235 /* Build configuration list for PBXNativeTarget "GomokuWatch" */;
+			buildPhases = (
+				B1B6F8175ADDC5B4B723B733 /* Sources */,
+				475CF153A3688A317D3ABB88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GomokuWatch;
+			packageProductDependencies = (
+			);
+			productName = GomokuWatch;
+			productReference = 714A99D5110E51C17BE83524 /* GomokuWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75F2DF416916F1C0F4D19712 /* GomokuWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D10C4DCC69F400CBB0D9D83 /* Build configuration list for PBXNativeTarget "GomokuWatchTests" */;
+			buildPhases = (
+				1DE87DDAD496FAD249A9F663 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A5AEF8CB051343118349652 /* PBXTargetDependency */,
+			);
+			name = GomokuWatchTests;
+			packageProductDependencies = (
+			);
+			productName = GomokuWatchTests;
+			productReference = 9D1780302B7E2ED2C995AAC8 /* GomokuWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35231D433DF9A43E6DFC970B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					29E19B4D317F75D00BE740EA = {
+						TestTargetID = 57AEB67C1A13E3D4E794C3F8;
+					};
+				};
+			};
+			buildConfigurationList = CCF449A759712F16EF178B85 /* Build configuration list for PBXProject "GomokuWatch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 84C382BD2E72A2C7931C16D7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6857A5670FE9F5C37CD15175 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57AEB67C1A13E3D4E794C3F8 /* GomokuWatch */,
+				75F2DF416916F1C0F4D19712 /* GomokuWatchTests */,
+				29E19B4D317F75D00BE740EA /* GomokuWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		475CF153A3688A317D3ABB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF2EB2DFD1C7B888CC12CDB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DE87DDAD496FAD249A9F663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FA9542F59D273FC7A32769 /* GameViewModelTests.swift in Sources */,
+				C17F3ADFB84A15DF1C704625 /* GomokuEngineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5523D88E7DC01085221DBE65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834C0AF04B60631A147C7FBD /* GomokuWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B6F8175ADDC5B4B723B733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080C94F427778188513A446A /* GameView.swift in Sources */,
+				4402BC6F22E320A98DDA80EB /* GameViewModel.swift in Sources */,
+				2C69E5D1903DF5CBF0FCA814 /* GomokuEngine.swift in Sources */,
+				13968A72E1B648E693BF7930 /* GomokuWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A5AEF8CB051343118349652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57AEB67C1A13E3D4E794C3F8 /* GomokuWatch */;
+			targetProxy = FE6450AAE99D3510DFD91414 /* PBXContainerItemProxy */;
+		};
+		5E2CB376EF6BE3378EF29DE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57AEB67C1A13E3D4E794C3F8 /* GomokuWatch */;
+			targetProxy = 062F9647CA6BC823865A04DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		600FD49BD2126E0199AED6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shichuang.gomokuwatch.tests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GomokuWatch.app/GomokuWatch";
+			};
+			name = Release;
+		};
+		6068F6A423442402495EA98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		69C275D94DFE5E11D3684B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shichuang.gomokuwatch.tests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GomokuWatch.app/GomokuWatch";
+			};
+			name = Debug;
+		};
+		7A7C10FCFF4B8C2EECB4990B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GomokuWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "五子棋";
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shichuang.gomokuwatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		828CAE4012BB0032BFEEDDCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		9AAC5FA62E7D5276E75E719B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shichuang.gomokuwatch.uitests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = GomokuWatch;
+			};
+			name = Release;
+		};
+		B4E6A8B91AC2982BCFF27921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shichuang.gomokuwatch.uitests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = GomokuWatch;
+			};
+			name = Debug;
+		};
+		CF1B2625C18AB69A4C8BE8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GomokuWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "五子棋";
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shichuang.gomokuwatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D10C4DCC69F400CBB0D9D83 /* Build configuration list for PBXNativeTarget "GomokuWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C275D94DFE5E11D3684B0F /* Debug */,
+				600FD49BD2126E0199AED6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		760E859DFE6E387ACAD279CE /* Build configuration list for PBXNativeTarget "GomokuWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E6A8B91AC2982BCFF27921 /* Debug */,
+				9AAC5FA62E7D5276E75E719B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CCF449A759712F16EF178B85 /* Build configuration list for PBXProject "GomokuWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6068F6A423442402495EA98F /* Debug */,
+				828CAE4012BB0032BFEEDDCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FC310CD12E9768626549F235 /* Build configuration list for PBXNativeTarget "GomokuWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7C10FCFF4B8C2EECB4990B /* Debug */,
+				CF1B2625C18AB69A4C8BE8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35231D433DF9A43E6DFC970B /* Project object */;
+}
