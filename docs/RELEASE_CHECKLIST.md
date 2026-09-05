@@ -13,8 +13,9 @@
 - [x] 所有者选择 MIT，已添加 LICENSE，版权署名 shichuang。
 - [x] 干净克隆单元测试、Release 构建与 UI 回归完成，具体范围见 VERIFICATION.md。
 - [x] README 加入已检查的难度选择、AI 对局和胜利截图。
-- [ ] 确认 GitHub 账号、仓库名、公开性并推送。
-- [ ] 首次远端 Actions 成功后创建 v0.1.0 发布。
+- [x] 已公开发布到 https://github.com/maopai/GomokuWatch 。
+- [x] 首次远端 Actions 构建和单元测试通过。
+- [ ] 创建 v0.1.0 预览版发布。
 
 ## 稳定版前
 

@@ -16,7 +16,9 @@
 
 本轮未修改应用游戏逻辑，保留此前每档 0.5× 的缩放实现；更新发布配置、文档与大棋盘 UI 测试。
 
-未执行 GitHub 远端 Actions、真机验收、全尺寸 UI 回归或最低系统版本验收。不能将本次结果视为这些项目已完成。
+GitHub 首次远端 Actions 构建和单元测试通过：[运行记录](https://github.com/maopai/GomokuWatch/actions/runs/33971093742)。
+
+未执行真机验收、全尺寸 UI 回归或最低系统版本验收。不能将本次结果视为这些项目已完成。
 
 CI 使用 macos-26 / Xcode 26.6，环境依据 GitHub 官方 runner 清单：
 https://github.com/actions/runner-images/blob/main/images/macos/macos-26-Readme.md
